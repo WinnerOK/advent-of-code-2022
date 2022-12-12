@@ -1,7 +1,7 @@
 package main
 
 import (
-	day "github.com/WinnerOK/advent-of-code-2022/day3"
+	day "github.com/WinnerOK/advent-of-code-2022/day5"
 )
 
 func main() {
@@ -9,6 +9,6 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	//println(day.Part1(input))
+	println(day.Part1(input))
 	println(day.Part2(input))
 }
