@@ -1,7 +1,7 @@
 package main
 
 import (
-	day "github.com/WinnerOK/advent-of-code-2022/day5"
+	day "github.com/WinnerOK/advent-of-code-2022/day10"
 )
 
 func main() {
