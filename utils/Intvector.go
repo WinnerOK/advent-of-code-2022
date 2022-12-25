@@ -36,3 +36,15 @@ func (v IntVector) Normalize() IntVector {
 		Y: newY,
 	}
 }
+
+func (v IntVector) Mul(val int) IntVector {
+	return IntVector{
+		X: v.X * val,
+		Y: v.Y * val,
+	}
+}
+
+func (v IntVector) ManhattanDist(o IntVector) int {
+	diff := v.Sub(o)
+	return IntAbs(diff.X) + IntAbs(diff.Y)
+}
